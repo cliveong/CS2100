@@ -30,7 +30,7 @@ main:
 		  
 	loop2: add $t8, $t8, $t2
 		   slt $t7, $t8, $t6
-		   bne $t7, $t8, loop2
+		   bne $t7, $s0, loop2
 		   addi $t8, $t2, 0
 		   j append
 	
