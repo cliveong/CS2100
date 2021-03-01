@@ -21,7 +21,7 @@ main:
 	addi $t9, $zero, 0 #counter
 	
 	loop: slt $t5, $t3, $t4 #loop till 8
-		  beq $t3, $zero, end #if equal end
+		  beq $t5, $zero, end #if equal end
 		  lw $t6, 0($t3) #load array
 		  beq $t3, $t4, append
 		  slt $t7, $t2, $t6 #if less than X
