@@ -26,6 +26,7 @@ main:
 		  beq $t3, $t4, append
 		  slt $t7, $t2, $t6 #if less than X
 		  bne $t7, $0, loop2
+		  addi $t3, $t3, 4
 		  j loop
 		  
 	loop2: add $t8, $t8, $t2
