@@ -25,7 +25,7 @@ main:
 	# Call the findMin function
 	# setup the parameter(s)
 	la $t8, array
-	sll $a0, $t0, 2
+	sll $a0, $t0, 2 #count address
 	sll $a1, $t1, 2
 	add $a0, $t8, $a0
 	add $a1, $t8, $a1
