@@ -1,0 +1,9 @@
+address is 0x40000c
+
+now at 0x400028
+
+now contains 0x400010
+
+Addr(jal) + 4           
+
+$ra
