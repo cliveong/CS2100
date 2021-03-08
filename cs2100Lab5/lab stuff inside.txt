@@ -6,4 +6,4 @@ now contains 0x400010
 
 Addr(jal) + 4           
 
-$ra
+$31
